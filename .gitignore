@@ -396,3 +396,66 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# distribution packages
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+*.egg
+
+# python set up files
+*.whl
+
+# directories created by the build process with pip
+pip-wheel-metadata/
+
+# Windows executables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# virtual environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# editors settings files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# operating system files
+.DS_Store
+Thumbs.db
+
+# streamlit files
+.streamlit/
+
+# database and logs files
+*.log
+*.sql
+*.sqlite
+
+# temporary files
+*.temp
+*.tmp
+
+# download files by the application
+downloads/
+
